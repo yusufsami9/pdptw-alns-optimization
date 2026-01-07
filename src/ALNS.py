@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 26 16:28:19 2022
 
-@author: Original template by Rolf van Lieshout
-"""
 from Solution import Solution
 import random, time
 import numpy as np
