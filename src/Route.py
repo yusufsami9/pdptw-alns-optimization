@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Jul 28 17:10:03 2022
 
-@author: Original template by Rolf van Lieshout
-"""
 import sys
 
 
