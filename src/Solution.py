@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Tue Jul 26 13:54:49 2022
 
-@author: Original template by Rolf van Lieshout
-"""
 from Route import Route
 import random
 
