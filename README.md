@@ -78,9 +78,9 @@ Move acceptance uses simulated annealing:
 - Accept if **improves current solution**
 - Otherwise accept a worse solution with probability:
 
-\[
-P = \exp\left(-\frac{\Delta}{T}\right)
-\]
+P = exp(-Δ / T)
+
+where Δ = (new_cost - current_cost) and T is the temperature.
 
 Temperature decreases each iteration:
 
