@@ -130,3 +130,59 @@ It also prints feasibility statistics (percentage of feasible temporary solution
 
 ## Repository Structure
 
+```text
+pdptw-alns-optimization/
+├─ Instances/
+│  ├─ .gitkeep
+│  ├─ c202C16.txt
+│  ├─ lc102.txt
+│  ├─ lc108.txt
+│  ├─ lc207.txt
+│  ├─ lr112.txt
+│  ├─ lr205.txt
+│  ├─ lrc104.txt
+│  ├─ lrc206.txt
+│  ├─ r102C18.txt
+│  ├─ rc204C16.txt
+│  └─ readme.txt
+├─ outputs/
+│  ├─ .gitkeep
+│  ├─ destroy_operator_weights_over_time.png
+│  ├─ repair_operator_weights_over_time.png
+│  └─ route_distance_over_time.png
+├─ src/
+│  ├─ ALNS.py
+│  ├─ Main.py
+│  ├─ Problem.py
+│  ├─ Route.py
+│  └─ Solution.py
+├─ .gitignore
+├─ LICENSE
+├─ PDPTW_Report.pdf
+└─ README.md
+```
+
+
+---
+
+## How to Run
+
+### Requirements
+- Python 3.x
+- numpy, matplotlib
+
+Install dependencies:
+```bash
+pip install numpy matplotlib
+```
+Run:
+```
+python Main.py
+```
+
+## Selecting an instance
+
+In Main.py, pick an instance using:
+test = instances[6]
+
+
